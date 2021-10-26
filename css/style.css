@@ -1,7 +1,28 @@
+#navigation{
+    background-color: #766b6b !important;
+}
+
 #navigation .topic{
 font-size: 2em;
 }
 
 #ourmenu .food-item{
 background-color: #958d8d;
+padding:15px;
+text-align: justify;
+}
+
+#ourmenu .food-item .food-label{
+font-size: 18px;
+font-weight: 600;
+}
+
+
+@media only screen and (max-width: 920px) {
+       .last-item{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
 }
